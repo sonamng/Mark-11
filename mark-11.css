@@ -1,0 +1,103 @@
+:root {
+    background-image: url(images.jpg);
+    --black: #000;
+} 
+
+
+
+html {
+    background-color: var(--background-dark);
+    color: var(--black);
+    height: 100%;
+}
+  
+*{
+    font-family: "Lato", sans-serif;
+}
+
+.header {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 3rem;
+    color: darkorange;
+}
+  
+.container {
+    width: 300px;
+    margin: auto auto;
+}
+  
+label,
+input {
+    display: block;
+    margin-top: 0.5rem;
+    width: 100%;
+    
+}
+  
+label {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+  
+input {
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: transparent;
+    font-size: large;
+    margin: 1rem 0;
+}
+  
+#calculate-number {
+    margin: 0.5rem auto;
+    display: block;
+
+}
+  
+#calculate-number {
+    /* background-color: var(--background-dark); */
+    border: 2px solid var(--black);
+    color: var(--black);
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: var(--black);
+    margin: auto;
+    display: block;
+    background-color: dimgrey;
+    margin-top: 0.10rem;
+}
+  
+#output-container {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: x-large;
+    border-color: var(--black);
+    border-width: medium;
+    border-radius: 5px;
+}
+
+.for-boder{
+    background-color: blueviolet;
+    border-style: solid green;
+    border:2rem;
+    width: 38rem;
+    height: 20rem;
+    margin-left: 0rem;
+    margin-top: -6.1rem;
+}
+div{
+    border: 15px solid red;
+    margin-left: 20rem;
+    margin-right: 48rem;
+    /* margin-top: 10rem; */
+    margin-top: 9.50rem;
+    height:20rem;
+    width: 38rem;
+}
+   
